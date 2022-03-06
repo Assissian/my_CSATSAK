@@ -1,0 +1,167 @@
+.clearfix{*zoom:1;}
+.clearfix::after
+{
+    clear:both;
+    content:"";
+    display:block;
+    height:0;
+    visibility: hidden
+}
+
+#father
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-215px;
+    margin-left:-160px;
+    padding:0 30px;
+    width:320px;
+    height:430px;
+    font-size: 13px;
+    border:1px solid red;
+    color:gray;
+}
+#form-style #div1{width:100%;height:10px;}
+#login{font-size:13px;color:gray;}
+#login a{
+    float:right;
+    margin-top:5px;
+    padding-right:15px;
+    font-size:11px;
+    text-decoration: none;
+    color:gray;
+}
+.input-style
+{
+    position:relative;
+    margin:10px 0;
+    width:100%;
+    height:40px;
+    border:1px solid gray;
+}
+.input-style span
+{
+    display:inline-block;
+    margin-top:10px;
+}
+#triangle
+{
+    position:absolute;
+    top:15px;
+    left:36px;
+    width:0;
+    height:0;
+    border:6px solid gray;
+    border-color:transparent transparent transparent gray;
+}
+#triangle div
+{
+    position:absolute;
+    top:-5px;
+    left:-6px;
+    width:0;
+    height:0;
+    border:5px solid gray;
+    border-color:transparent transparent transparent white;
+}
+#text-style
+{
+    position:absolute;
+    top:1px;
+    left:45px;
+    height:90%;
+    width:200px;
+    border:none;
+}
+.input-style img
+{
+    position:absolute;
+    top:7px;
+    left:3px;
+    height:30px;
+}
+#password-style
+{
+    width:200px;
+    height:90%;
+    border:none;
+    margin:1px 0 0 35px;
+}
+.forget
+{
+    float:right;
+    font-size:13px;
+    text-decoration: none;
+    color:orange;
+}
+#login-in{border:none;}
+#login-in input
+{
+    z-index: 1;
+    width:100%;
+    height:100%;
+    border:none;
+    font-weight:bold;
+    cursor: pointer;
+    background-color:#FFBD00;
+}
+#p1 a
+{
+    position:relative;
+    right:190px;
+}
+.user-agreement
+{
+    margin-bottom:20px;
+    width:100%;
+    height:60px;
+}
+.user-agreement label
+{
+    float:left;
+    width:25px;
+    height:100%;
+}
+.user-agreement div
+{
+    float:left;
+    width:295px;
+    height: 100%;
+}
+#protocal{font-size:15px;}
+#protocal a
+{
+    text-decoration: none;
+    color:orange;
+}
+#cooperate
+{
+    position:relative;
+    width:100%;
+    height:80px;
+    border:1px solid white; 
+}
+#cooperate hr{margin-top:20px}
+#cooperate h3
+{
+    position: absolute;
+    z-index: 1;
+    top:-7px;
+    left:86px;
+    padding:0 10px;
+    text-align: center;
+    background-color: white;
+}
+#img1
+{
+    position:absolute;
+    top:37px;
+    left:115px;
+}
+#img2
+{
+    position:absolute;
+    top:35px;
+    left:160px;
+}

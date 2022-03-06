@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/PageENStyle.css" />
+    <title>登录页面1</title>
+</head>
+<body>
+    <div id="father" class="clearfix">
+        <form id="form-style">
+            <div id="div1"></div>
+            <span id="login">
+                <a href="https://passport.meituan.com/account/unitivelogin?service=www&continue=https%3A%2F%2Fwww.meituan.com%2Faccount%2Fsettoken%3Fcontinue%3Dhttps%253A%252F%252Fbj.meituan.com%252F">
+                    手机动态码登录
+                </a>
+                账号登录
+            </span>
+            <div class="input-style">
+                <span>+86</span>
+                <div id="triangle">
+                    <div></div>
+                </div>
+                <input type="text" id="text-style" name="e-mail" placeholder="手机号" value="" maxlength="15"/>
+            </div>
+            <div class="input-style">
+                <img src="../photos/lock.png" />
+                <input id="password-style" type="password" name="password" placeholder="密码" value="" maxlength="15" />
+            </div>
+            <div class="clearfix">
+                <a class="forget" href="https://passport.meituan.com/useraccount/retrievepassword?risk_partner=0&service=www&continue=https%3A%2F%2Fwww.meituan.com%2Faccount%2Fsettoken%3Fcontinue%3Dhttps%253A%252F%252Fbj.meituan.com%252F">
+                    忘记密码？
+                </a>
+            </div>
+            <div class="input-style" id="login-in">
+                <input type="submit" name="登录" value="登录" />
+            </div>
+            <p id="p1">
+                还没有账号？
+                <a class="forget" href="https://passport.meituan.com/account/unitivesignup?service=www&continue=https%3A%2F%2Fwww.meituan.com%2Faccount%2Fsettoken%3Fcontinue%3Dhttps%253A%252F%252Fbj.meituan.com%252F">
+                    免费注册
+                </a>
+            </p>
+        </form>
+        <div class="user-agreement">
+            <label>
+                <input type="checkbox" name="protocal" value="agreement" />
+            </label>
+            <div id="protocal">
+                我已阅读并同意
+                <a href="https://rules-center.meituan.com/rules-detail/4">《美团用户协议》</a>
+                <a href="https://rules-center.meituan.com/rules-detail/2">《隐私政策》</a>
+                ，并授权美团使用该美团账号信息（如昵称、头像、收货地址）进行统一管理 
+            </div>
+        </div>
+        <div id="cooperate">
+            <hr />
+            <h3>
+                用合作网站账号登录
+            </h3>
+            <a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&redirect_uri=https%3A%2F%2Fpassport.meituan.com%2Faccount%2Fcallback%2Ftencent&client_id=214506">
+                <img id="img1" src="../photos/QQ.png" />
+            </a>
+            <a href="https://api.weibo.com/oauth2/authorize?response_type=code&redirect_uri=https%3A%2F%2Fpassport.meituan.com%2Faccount%2Fcallback%2Fsina&client_id=579809138###">
+                <img id="img2" src="../photos/weibo.png" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>
